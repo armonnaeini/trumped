@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'cheltanhamLight';
+   src: url('projFonts/cheltenham-cond-normal-300.ttf');
+}
+
+@font-face {
+  font-family: 'cheltanhamRegular';
+   src: url('projFonts/cheltenham-cond-normal-500.ttf');
+}
+
+*,
+*:before,
+*:after {
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+p{
+	  font-family: "poynter-oldstyle-text";
+
+}
+h1{
+	letter-spacing: .5pt;
+	font-family: "amador";
+	font-size: 40pt;
+}
+
+h2{
+	font-family: 'cheltanhamRegular';
+	letter-spacing: .7pt;
+}
+
+.titleContainer{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.headlineContainer{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
